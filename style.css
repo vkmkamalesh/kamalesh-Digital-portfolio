@@ -1,0 +1,92 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #6410b3;
+    color: #cdee38;
+    padding-top: 60px;
+}
+
+header {
+    background: #17c0d6;
+    color: #b10c0c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #e70eb8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0fdb6b;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #0da33f;
+    border-left: 4px solid #00bcd4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0097a7;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
